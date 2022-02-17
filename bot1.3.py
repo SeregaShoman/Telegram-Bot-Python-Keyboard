@@ -1,6 +1,5 @@
 import sqlite3
 import telebot
-import random
 from telebot import types # для указание типов
 
 conn = sqlite3.connect('db/database.db', check_same_thread=False)
